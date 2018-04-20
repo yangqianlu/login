@@ -1,0 +1,26 @@
+/* pages/userinfo/userinfo.wxss */
+.exit_login{
+  width: 700rpx;
+  margin-left: 25rpx;
+}
+.info_header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40rpx;
+  margin-bottom: 40rpx;
+}
+.infoList{
+  width: 700rpx;margin-left: 25rpx;
+}
+.infoList .infoItem{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30rpx;line-height: 60rpx;
+}
+.infoList .infoItem input{flex: 2.3;border:1px solid #f1f1f1;text-indent: 5rpx;}
+.infoList .infoItem text{
+  flex: 1;
+  text-align: left;
+  margin-left: 10rpx;
+}

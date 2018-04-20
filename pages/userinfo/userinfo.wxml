@@ -1,0 +1,27 @@
+<!--pages/userinfo/userinfo.wxml-->
+<view class='info_header'>用户信息</view>
+<view class='infoList'>
+    <view class='infoItem'>
+        <text>手机号码</text>
+        <input placeholder="请输入手机号码" auto-focus/>
+    </view>
+    <view class='infoItem'>
+        <text>用户类型</text>
+        <input placeholder="请输入用户类型" auto-focus/>
+    </view>
+    <view class='infoItem'>
+        <text>用户状态</text>
+        <input placeholder="请输入用户状态" auto-focus/>
+    </view>
+    <view class='infoItem'>
+        <text>余额</text>
+        <input placeholder="请输入余额" auto-focus/>
+    </view>
+    <view class='infoItem'>
+        <text>消费金额</text>
+         <input placeholder="请输入消费金额" auto-focus/>
+    </view>
+</view>
+<view class='exit_login'>
+<button type="primary"  bindtap="primary"> 退出登录 </button>
+</view>

@@ -1,0 +1,19 @@
+<!--pages/project/project.wxml-->
+<view class="container">
+  <view class="loginbox">
+    <view class="usermotto">
+      <text class="user-motto">{{motto}}</text>
+      <view class="cp-input">
+        <view style="display:inline-block;">
+         <text>项目：</text>
+          <input type="text" bindinput="userNameInput" style="float:right;" placeholder="请输入项目名" />
+        </view>
+        <view>
+          <text>数量：</text>
+          <input type="text" bindinput="userPasswordInput" password="true" style="float:right;" placeholder="请输入数量" />
+        </view>
+        <button bindtap="logIn">获取</button>
+      </view>
+    </view>
+  </view>
+</view>
